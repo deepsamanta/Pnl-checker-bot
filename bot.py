@@ -5,7 +5,7 @@ import json
 import hmac
 import hashlib
 import requests
-from config import COINDCX_SECRET , COINDCX_KEY 
+from config import COINDCX_KEY, COINDCX_SECRET
 
 # ==============================
 # CONFIG
