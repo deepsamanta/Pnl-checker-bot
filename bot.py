@@ -5,7 +5,12 @@ import json
 import hmac
 import hashlib
 import requests
-from config import COINDCX_KEY, COINDCX_SECRET
+import os
+
+
+# ===== COINDCX API =====
+COINDCX_KEY = os.getenv("COINDCXKEY")
+COINDCX_SECRET = os.getenv("COINDCX_SECRET")
 
 # ==============================
 # CONFIG
