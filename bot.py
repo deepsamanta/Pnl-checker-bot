@@ -24,7 +24,7 @@ API_SECRET = COINDCX_SECRET
 BASE_URL = "https://api.coindcx.com"
 
 
-PNL_TARGET = 0.02     # USDT
+PNL_TARGET = 0.3     # USDT
 CHECK_INTERVAL = 10     # 5 minutes
 
 secret_bytes = API_SECRET.encode()
